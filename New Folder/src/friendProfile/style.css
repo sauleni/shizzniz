@@ -1,0 +1,73 @@
+.itemDetails {
+    padding-left: 10;
+    padding-right: 10;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.itemContainer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* padding-left: 65px; */
+    /* padding-right: 65px; */
+    box-shadow: -2px 2px 2px 2px #ddd;
+    padding: 10px;
+}
+
+#friends, #shared_friends {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#inviteButton, #createButton {
+    color: white;
+    background-color: #d21212;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    height: 50px;
+    font-weight:bold;
+}
+
+#inviteButton {
+    width: 50%;
+}
+
+#createButton {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#text_input {
+    text-align: left;
+    border: none;
+    box-shadow: -2px 2px 2px 2px #ddd;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 45px;
+    width: 285px;
+    font-size: 16px;
+    margin: 4px;
+    width: -moz-fit-content;
+	font-weight:bold;
+}
+
+#text_input::placeholder {
+    color: #ccc;
+    padding-left: 5px;
+}
+
+.MuiBox-root-6 {
+    padding: 5px !important;
+}

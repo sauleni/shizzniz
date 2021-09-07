@@ -1,0 +1,17 @@
+
+#LoginButton {
+    color: white;
+    background-color: #d21212;
+    width: 90%;
+    border: none;
+    font-size: 16px;
+    height: 50px;
+	font-weight: bold;
+}
+
+#LoginButton:hover {
+    cursor: pointer;
+    font-size: 120%;
+    background-color: violet;
+    color: aqua;
+}

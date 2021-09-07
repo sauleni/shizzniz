@@ -1,0 +1,67 @@
+.inputContainer {
+    margin: 10px;
+	border-top :0px;
+}
+
+#LoginEmail, #LoginPassword {
+    text-align: center;
+    border: none;
+    box-shadow: -2px 2px 2px 2px #ddd;
+    outline: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    margin: 4px;
+    width: -moz-fit-content;
+	font-weight:bold;
+}
+
+#LoginButton {
+    color: white;
+    background-color: #d21212;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    width: 50%;
+    margin: 10px;
+    padding-bottom: 5px;
+    border: none;
+    font-size: 16px;
+    height: 50px;
+	font-weight:bold;
+}
+#LoginButton:hover {
+    cursor: pointer;
+    font-size: 120%;
+    background-color: violet;
+    color: aqua;
+}
+
+#forgot{
+	margin-left: 5px;
+    font-size: 16px;
+	font-weight:bold;
+}
+#register{
+	float:right;
+	margin-left:20%;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+#icon {
+    width: 15px;
+    height: 15px;
+    background-color: #d21212;
+    border-radius: 10px;
+    padding: 3px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.link:hover {
+    cursor: pointer;
+}

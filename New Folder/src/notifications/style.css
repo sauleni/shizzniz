@@ -1,0 +1,66 @@
+/* .main {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+} */
+
+.notification {
+    margin-top: 10px;
+    width: 90%;
+    /* height: 190px; */
+    padding: 10px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+}
+.image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: pink;
+    padding: 5px;
+}
+
+.content {
+    width: 50%;
+    height: 140px;
+}
+
+.username {
+    margin-top: 15px;
+    display: flex;
+    padding-left: 10px;
+    font-size: large;
+    /* align-self: left; */
+}
+
+.isat{
+    display: flex;
+    padding-left: 40px;
+    color: pink;
+}
+
+.homeicon {
+    position: relative;
+    left: 125px;
+    top: -40px;
+}
+
+.date {
+    display: flex;
+    position: relative;
+    top: -30px;
+    left: 90px;
+    width: 150px;
+    font-size: 13px;
+    /* flex-wrap: nowrap; */
+}
+
+.MuiTab-textColorPrimary {
+    color: rgba(0, 0, 0, 0.54);
+    width: 33%;
+}
